@@ -5,7 +5,7 @@ node {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
 
-        app = docker.build("rasjaisw/demoJenkins")
+        app = docker.build("rasjaisw/demojenkins")
     }
 
     stage('Push image') {
